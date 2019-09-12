@@ -9,7 +9,7 @@
 int main() {
 
 	float temp;
-	int error_code = get_cpu_temperature(&temp);
+	uint8_t error_code = get_cpu_temperature(&temp);
 
 	if (error_code != 0) {
 		printf("ERRO NA LEITURA DA TEMPERATURA");

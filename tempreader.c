@@ -1,6 +1,6 @@
 #include "tempreader.h"
 
-int get_cpu_temperature(float* reading) {
+uint8_t get_cpu_temperature(float* reading) {
 
 	const char BUFFER_SIZE = 10;
 	const char* path = "/sys/class/thermal/thermal_zone0/temp";
