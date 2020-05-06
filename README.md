@@ -11,9 +11,10 @@ Small program for obtaining Raspberry Pi's CPU temperature.
 $ make
 ```
 
-3. A binary called `tempi` will be into `bin `folder.
+It will produce a binary named `tempi` into `bin `folder.
 
 ```shell
 $ ls bin/
 tempi
 ```
+3. Run `tempi`.
