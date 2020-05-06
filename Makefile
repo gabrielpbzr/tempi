@@ -1,10 +1,11 @@
 CC=gcc
-CFLAGS=-o bin/tempi -Wall
+CFLAGS= -Wall -pedantic
+OUTPUT=bin/tempi
 FILES=*.c
 
 all: clean
 	mkdir bin
-	$(CC) $(CFLAGS) $(FILES)
+	$(CC) $(CFLAGS) -o $(OUTPUT) $(FILES)
 
 clean:
 	rm -rf bin/
